@@ -5,6 +5,17 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
+class Neuron:
+    def __init__(self, learning_rate):
+        self.learning_rate = learning_rate
+        self.weight = 1
+        self.deg = 1
+        self.bias = 0
+
+    def forward(self, x):
+        return 
+
+
 class SimpleRegression:
 
     def __init__(self):

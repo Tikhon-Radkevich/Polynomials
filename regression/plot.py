@@ -11,8 +11,8 @@ for x_val, y_val in data:
 y_max = max(y)
 x_max = max(x)
 
-x = list(map(lambda val: val/x_max, x))
-y = list(map(lambda val: val/y_max, y))
+# x = list(map(lambda val: val/x_max, x))
+# y = list(map(lambda val: val/y_max, y))
 
 # Create a scatter plot
 fig = go.Figure(data=go.Scatter(x=x, y=y, mode='markers'))
